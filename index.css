@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+*::selection {
+    background-color: transparent;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+}
+.con {
+    margin: auto;
+    height: 20vh;
+    width: 40%;
+    background-color: black;
+    margin-top: 40vh;
+    border: 10px solid silver;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.number {
+    font-size: 6vw;
+    color: rgb(27, 182, 27);
+    cursor: default;
+}
+.label {
+    color: rgb(27, 182, 27);
+    margin: 2%;
+    cursor: default;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    height: 5vh;
+    width: 5%;
+    margin: 3%;
+    cursor: pointer;
+}
+#start {
+    background-color: rgb(49, 199, 49);
+}
+#stop {
+    background-color: rgb(75, 138, 201);
+}
+#reset {
+    background-color: rgb(226, 27, 27);
+}
